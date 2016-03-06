@@ -1,35 +1,55 @@
+form {
+  max-width: 450px;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+}
+
+
 label {
   color: white
+  width: 50%;
 }
+
 input,
 textarea {
-  /*display: block;*/
-  margin: 1em;
+  display: block;
+  border: 2px solid #1CBFBC;
+  box-sizing: border-box;
+  margin: 0px;
+  height: 3em;
+  width: 100%;
   color: black;
+}
+:focus {
+  outline: none;
+  border: 2px solid #25FFFA;
+}
+
+textarea {
+  border-radius: 8px;
+  height: 6em;
 }
 
 input[type=text] {
-  border: 0;
-  padding: 1em;
+  /*padding: 1em;*/
   border-radius: 8px;
   color: black;
 }
 
 input[type=email] {
-  border: 0;
-  padding: 1em;
+  /*padding: 1em;*/
   border-radius: 8px;
-  width: 300px;
   color: black;
 }
 
 input[type=submit] {
-  background: #E59B4A;
+  margin-top: 10px;
   border-radius: 2px;
+  text-align: center;
+  width: 25%;
 }
 
 :focus {
-  background: #21E1DD;
   transition: background .5s;
   outline: 0;
 }
