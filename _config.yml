@@ -2,8 +2,8 @@
 title: Compose lab
 email: composelab@outlook.com
 description: Make stuff of your dreams into the reality. We help compose them.
-baseurl: /compose-lab
-url: "https://compose-lab.in" # the base hostname & protocol for your site
+baseurl: /composelab
+# url: "https://composelab.in" # the base hostname & protocol for your site
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
