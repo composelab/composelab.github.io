@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <form action="//formspree.io/nickymarch1@hotmail.com" method="POST">
+                <form action="//formspree.io/{{ site.email }}" method="POST">
 
                   <label for="name">Name</label>
                   <input type="text" name="name" placeholder="Your Name">
@@ -15,10 +15,6 @@
                   <textarea name="message" id="" cols="20" rows="5"></textarea>
 
                   <input type="submit" value="Send">
-
-                <!-- Hidden Field   -->
-                 <input type="text" name="_gotcha" style="display:none" />
-                  <input type="hidden" name="_next" value="http://ewu.edu" />
 
                 </form>
                 <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
