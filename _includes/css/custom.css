@@ -135,6 +135,10 @@ a:focus {
     }
 }
 
+.content-section {
+  height: 100%;
+}
+
 .intro {
     display: table;
     width: 100%;
@@ -285,16 +289,15 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
-    .download-section {
-        padding: 100px 0;
+    .works-section {
+        padding: 50px 0;
     }
 
     #map {
         height: 400px;
-        margin-top: 250px;
     }
 }
 
@@ -385,6 +388,10 @@ body {
 
 .content-section {
     padding-top: 125px;
+}
+
+.short-section {
+  height: 75%;
 }
 
 .slogan {

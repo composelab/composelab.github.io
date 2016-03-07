@@ -1,25 +1,22 @@
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <section id="contact" class="container content-section text-center short-section">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
                 <form action="//formspree.io/{{ site.email }}" method="POST">
+
                   <fieldset class="contact-info-group">
                     <label for="name">Name</label>
                     <input type="text" name="name" placeholder="Your Name">
-
                     <label for="_replyto">Email</label>
                     <input type="email" name="_replyto" placeholder="your email @ddress">
                   </fieldset>
 
-                  <label for="message">Tell us about your requirement</label>
+                  <label for="message">summarize your project</label>
                   <textarea name="message" id="" cols="20" rows="5"></textarea>
-
                   <input type="submit" value="Send">
-
                 </form>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
+                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
             </div>
         </div>
     </section>
