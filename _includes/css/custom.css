@@ -150,6 +150,16 @@ a:focus {
     -o-background-size: cover;
 }
 
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #7BA5AD,
+    1px -1px 0 #7BA5AD,
+    -1px 1px 0 #7BA5AD,
+    1px 1px 0 #7BA5AD;
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
@@ -253,10 +263,6 @@ a:focus {
         -moz-transform: scale(1);
         transform: scale(1);
     }
-}
-
-.content-section {
-    padding-top: 100px;
 }
 
 .works-section {
@@ -375,6 +381,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.content-section {
+    padding-top: 125px;
 }
 
 .slogan {
